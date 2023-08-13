@@ -29,7 +29,7 @@
     }
     ?>
 
-    <!-- Create Company Form in HTML -->
+
     <form method="post" action="">
         <label for="company_name">Company Name:</label>
         <input type="text" id="company_name" name="company_name" required>

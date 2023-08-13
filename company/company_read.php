@@ -6,7 +6,7 @@ if (!isset($_SESSION["authenticated"]) || $_SESSION["authenticated"] !== true) {
     exit();
 }
 
-// Fetch companies from the database
+
 $sql = "SELECT * FROM Company";
 $result = $conn->query($sql);
 ?>

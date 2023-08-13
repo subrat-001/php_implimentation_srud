@@ -45,7 +45,7 @@
     }
     ?>
 
-    <!-- Update Company Form in HTML -->
+
     <form method="post" action="">
         <input type="hidden" name="id" value="<?php echo $row["Id"]; ?>">
 
