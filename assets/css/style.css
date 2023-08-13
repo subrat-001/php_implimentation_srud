@@ -1,0 +1,206 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f7f3;
+    /* Light greenish background */
+    color: #333;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+/* Header styling */
+header {
+    background-color: #5eb55e;
+    /* Light green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Navigation links */
+.dashboard-links {
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.dashboard-links h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.dashboard-links ul {
+    list-style: none;
+}
+
+.dashboard-links ul li {
+    margin-bottom: 10px;
+}
+
+.dashboard-links ul li a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #5eb55e;
+    /* Light green */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dashboard-links ul li a:hover {
+    background-color: #4caa4c;
+    /* Slightly darker green on hover */
+}
+
+/* Table styling */
+.company-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.company-table th,
+.company-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Action links */
+.action-link {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #5eb55e;
+    /* Light green */
+}
+
+/* Form styling */
+.form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 10px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #5eb55e;
+    /* Light green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: #4caa4c;
+    /* Slightly darker green on hover */
+}
+
+/* Link to switch between login and register */
+.form-container p {
+    margin-top: 20px;
+    color: #5eb55e;
+    /* Light green */
+    text-align: center;
+}
+
+.form-container p a {
+    color: #5eb55e;
+    /* Light green */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.form-container p a:hover {
+    color: #4caa4c;
+    /* Slightly darker green on hover */
+}
+
+.logout-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #00b894;
+    /* Light green color */
+}
+
+.logout-container a {
+    color: #00b894;
+    /* Light green color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.logout-container a:hover {
+    color: #009c77;
+    /* Darker shade of light green on hover */
+}
+
+/* ... (Other existing CSS rules) ... */
+
+/* Table styling */
+.company-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.company-table th,
+.company-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #c3e6c0;
+    /* Light green background */
+    color: #428248;
+    /* Dark green text */
+}
+
+/* ... (Other existing CSS rules) ... */
+
